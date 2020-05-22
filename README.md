@@ -27,7 +27,7 @@ Then in your Code, you use it like below.
 
 Add your custom fonts to `assets/fonts`. All font definitions are relative to this path.
 
-###Installation
+### Installation
 
 ```kotlin
 class MyApp : Application()
