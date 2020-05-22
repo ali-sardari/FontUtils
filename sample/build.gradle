@@ -25,7 +25,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(path: ':fontutils')
-//    implementation 'com.github.ali-sardari:AppUtils:1.0.6'
+//    implementation 'com.github.ali-sardari:FontUtils:1.0.0'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
