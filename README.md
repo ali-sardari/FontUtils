@@ -39,8 +39,8 @@ class MyApp : Application()
     {
         super.onCreate()
 
-//        FontUtils.init(this,"IranYekanBoldFN")
-        FontUtils.init(this)
+        FontUtils.init(this,"IranYekanBoldFN") //Without extension ('.ttf')
+//        FontUtils.init(this)
     }
 }
 ```
