@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/ali-sardari/FontUtils.svg)](https://jitpack.io/#ali-sardari/FontUtils)
 
-![alt text](https://github.com/ali-sardari/FontUtils/raw/master/screenshot/screenshot.png "ScreenShot Of Font Samples")
+![alt text](https://github.com/ali-sardari/FontUtils/blob/master/screenshot/Screenshot.png "ScreenShot Of Font Samples")
 
 Step 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
 
