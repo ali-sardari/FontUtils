@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="این متن برای تست عدد 123456 است!"
+            android:text="1. این متن برای تست است!"
             android:textSize="18sp" />
 
         <TextView
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="این متن برای تست عدد 123456 است!"
+            android:text="2. این متن برای تست است!"
             android:textSize="18sp" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="این متن برای تست عدد 123456 است!"
+            android:text="3. این متن برای تست است!"
             android:textSize="18sp" />
 
         <TextView
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="این متن برای تست عدد 123456 است!"
+            android:text="4. این متن برای تست است!"
             android:textSize="18sp" />
 
         <TextView
@@ -49,9 +49,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="این متن برای تست عدد 123456 است!"
+            android:text="5. این متن برای تست است!"
             android:textSize="18sp" />
 
+
+        <LinearLayout
+            android:id="@+id/llFontGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#C6C6C6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6. این متن برای تست است!"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="7. این متن برای تست است!"
+                android:textSize="18sp" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

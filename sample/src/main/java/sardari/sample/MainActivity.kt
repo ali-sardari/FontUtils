@@ -17,8 +17,12 @@ class MainActivity : AppCompatActivity() {
         FontUtils.setView(tv3, FontUtils.IRANSansMobile_Light)
         FontUtils.setView(tv4)
 
+        FontUtils.setDefaultFontName("IranYekanBoldFN")
+        FontUtils.setView(llFontGroup,FontUtils.IRANSansMobile_Medium) //Apply on ViewGroup
+
         val str = FontUtils.setText("تست SpannableStringBuilder")
         tv5.text = str
+
     }
 }
 
