@@ -30,7 +30,7 @@ Add your custom fonts to `assets/fonts`. All font definitions are relative to th
 
 ### Installation
 
-Define your default font in your `Application` class in the # `onCreate()` method.
+Define your default font in your `Application` class in the `onCreate()` method.
 
 ```kotlin
 class MyApp : Application()
